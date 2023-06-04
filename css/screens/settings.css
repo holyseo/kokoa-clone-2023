@@ -1,0 +1,46 @@
+.settings__setting {
+  padding: 22px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting i {
+  opacity: 0.8;
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+.settings__setting:nth-child(8),
+.settings__setting:nth-child(9) {
+  display: flex;
+  justify-content: flex-start;
+  gap: 7px;
+}
+
+.settings__setting:nth-child(8) > :last-child,
+.settings__setting:nth-child(9) > :nth-child(2) {
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+  padding: 3px 5px;
+  opacity: 0.8;
+}
+
+.settings__setting:nth-child(9) > :last-child {
+  position: absolute;
+  right: 25px;
+  opacity: 0.5;
+}
+
+.settings__setting:nth-child(4) {
+  margin-top: 30px;
+}
+
+.settings__setting-column:nth-child(2) {
+  opacity: 0.5;
+}
