@@ -1,5 +1,5 @@
 .welcome-header {
-  margin: 90px 0px;
+  margin: 90px 0px 30px 0px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -15,4 +15,11 @@
   width: 60%;
   opacity: 0.7;
   margin: 0px 90px;
+}
+
+.welcome-header img {
+  max-width: 30%;
+  margin: 20px;
+  opacity: 0.8;
+  box-shadow: 3px 3px 15px black;
 }

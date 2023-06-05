@@ -59,14 +59,17 @@
 }
 
 .message-row--own .message__bubble {
-  background-color: var(--yellow);
+  background-color: var(--darkblue);
   border-top-right-radius: 0;
   border-top-left-radius: 15px;
   margin: 0 0 0 5px;
+  max-width: 70%;
+  color: white;
 }
 
 .message-row--own .message__content {
   flex-direction: row-reverse;
+  line-height: 115%;
 }
 
 .message-row img {

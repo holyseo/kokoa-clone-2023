@@ -24,23 +24,27 @@
 }
 
 .more-suggestions__icon-image {
-  background-color: var(--yellow);
+  /* background-color: var(--darkblue); */
   width: 60px;
   height: 60px;
-  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 15px;
-  color: white;
   margin-bottom: 10px;
+}
+
+.more-suggestions__icon-image img {
+  width: 100%;
+  border-radius: 10px;
+  opacity: 0.8;
 }
 
 .tooltip .tooltip_text {
   visibility: hidden;
   width: 120px;
-  background-color: rgb(109, 109, 109);
-  color: #fff;
+  background-color: var(--darkblue);
+  color: #f7f59c;
   text-align: center;
   border-radius: 6px;
   padding: 3px 5px;

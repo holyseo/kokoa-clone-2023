@@ -40,7 +40,8 @@
 }
 
 #splash-screen {
-  background-color: var(--yellow);
+  background-color: var(--darkblue);
+  color: #f7f59c;
   position: absolute;
   height: 100vh;
   width: 100vw;
@@ -53,5 +54,8 @@
 }
 
 #splash-screen i {
-  font-size: 132px;
+  font-size: 75px;
+  box-shadow: 10px 10px 20px #f7f59c;
+  padding: 20px;
+  border-radius: 50%;
 }
